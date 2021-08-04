@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Bond Web Service Demo</title>
+<title>Bond Web Service Demo!</title>
 <style>
 body {font-family:georgia;}
 </style>
@@ -37,6 +37,7 @@ function toConsole(data)
 function bondJSON(data){
 //JSON processing data goes here
 	console.log(data)
+	$("#output").text(data);
 }
 
 </script>
