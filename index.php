@@ -66,8 +66,6 @@ function bondJSON(data){
 		let str = bondTemplate(item);
 
 		$('<div></div>').html(str).appendTo('#films');
-		//$str.appendTo('#films');
-		//$('<div></div>').html(str).appendTo('#films');
 	});
 //allows us to see all data on page
     let myData = JSON.stringify(data,null,4);
@@ -116,7 +114,13 @@ function bondTemplate(album){
                 <div class="pic"><img src="thumbnails/dr-no.jpg"></div>
                 </div>
                 -->
+                    <!-- Fix the image names to the album names
+                    Find small pics of each of the albums
+                    Create the albums-genre.js file, just we created the other file
+                    To turn this in, link your  repo and repl web page on your staging area and submit the staging area (repl must be running) -->
         </div>
         <div id="output">Results go here</div>
     </body>
 </html>
+
+
