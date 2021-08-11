@@ -62,13 +62,13 @@ function bondJSON(data){
 	$('#films').html('');
 
 
-    $.each(data.films,function(i, item){
-		let str = bondTemplate(item);
+   // $.each(data.films,function(i, item){
+		//let str = bondTemplate(item);
 
 
 		//$('<div></div>').html(str).appendTo('#films');
 		//$str.appendTo('#films');
-		$('<div></div>').html(str).appendTo('#films');
+		//$('<div></div>').html(str).appendTo('#films');
 	});
 //allows us to see all data on page
     let myData = JSON.stringify(data,null,4);
