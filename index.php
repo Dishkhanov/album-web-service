@@ -69,7 +69,7 @@ function bondJSON(data){
 		//$('<div></div>').html(str).appendTo('#films');
 		//$str.appendTo('#films');
 		//$('<div></div>').html(str).appendTo('#films');
-	});
+	//});
 //allows us to see all data on page
     let myData = JSON.stringify(data,null,4);
     myData = '<pre>' + myData + '</pre>';
