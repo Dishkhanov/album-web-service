@@ -1,6 +1,6 @@
 {
-	"title"; "Albums by Year",
-	"albums";[
+	"title": "Albums by Year",
+	"albums":[
 			  {
 				"Year": 1996,
 				"Artist":"Tupac",
