@@ -8,9 +8,8 @@
 				"Sales": 5000000,
 				"Genre":"Rap",
 				"Image":"tupac.jpg"
-
 			  },
-
+			  
 			  {
 				"Year": 2006,
 				"Artist":"Amy Winehouse",
