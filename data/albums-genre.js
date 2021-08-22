@@ -1,5 +1,5 @@
 {
-	"title": "Albums by Year",
+	"title": "Albums by Genre",
 	"albums":[
 
                     {
